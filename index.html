@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-body">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+
+        </div>
+        <div class="login">
+            <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td><label class="login-label">Email or phone</label></td>
+                        <td><label class="login-label">password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="submit" type="submit" value="Log in"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html">forgotten account</a></td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+        </div>
+        <div>
+            <div class="main-body">
+                <div class="left-section">
+                    <p class="para">Facebook helps you connect and share with the<br> people in your life.</p>
+                    <img class="fbimg" src="image/fb1.png" alt="">
+                </div>
+                <div class="right-section">
+                    <h1>Create an account </h1>
+                    <h3>its quick and easy</h3>
+                    <form class="signup-form" id="signup-form">
+                        <input name="fname" class="field" type="text" placeholder="first name">
+                        <input name="sname" class="field" type="text" placeholder="Surname">
+                        <br><br>
+                        <input name="emailaddress" class="email" type="number,email" placeholder="Mobile number or Email">
+                        <br><br>
+                        <input name="password" class="new-password" type="text" placeholder="New password">
+                        <br><br>
+                        <label>Birthday</label><br><br>
+                        <select name="day" id="">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            
+                            
+                        </select>
+                        <select name="month" id="">
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option>Apr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Aug</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dec</option>
+                        </select>
+                        <select onclick="Year()" name="year" id="select">
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+
+                    </select>
+                     <br><br>
+                        <label>Gender</label><br><br>
+                        <input name="gender" type="radio">
+                        <label>Female</label>
+                        <input name="gender" type="radio">
+                        <label>Male</label>
+                        <input name="gender" type="radio">
+                        <label>Custom</label>
+                        <br><br>
+                        <P class="dialogue">
+                            By clicking sign up your are agree to our terms,data policy<br> and cookie policy.You may receive SMS notification from<br> us and can opt out at anytime 
+                        </P>
+                        <br>
+                        <button type="submit" class="endbutton">Sign Up</button>
+                        <br><br><br>
+                        <p class="last">Create a Page for a celebrity,Band or Buisness</p>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
+</body>
+</html>
